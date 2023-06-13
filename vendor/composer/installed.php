@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/legacy-project',
-        'pretty_version' => '9.4.7',
-        'version' => '9.4.7.0',
-        'reference' => 'a908508bb6f3d5711ac9935d63b89901bc187940',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '45959079112e5500dd2e4187a8ec1d9c81e59245',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -260,11 +260,20 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '9.4.7',
-            'version' => '9.4.7.0',
-            'reference' => 'a908508bb6f3d5711ac9935d63b89901bc187940',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '45959079112e5500dd2e4187a8ec1d9c81e59245',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/linked_field' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'reference' => '8.x-1.5',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/linked_field',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
