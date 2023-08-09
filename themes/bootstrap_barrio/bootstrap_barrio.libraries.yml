@@ -334,7 +334,7 @@ fontawesome:
   version: VERSION
   css:
     component:
-      //use.fontawesome.com/releases/v5.13.0/css/all.css: { type: external }
+      //use.fontawesome.com/releases/v6.4.2/css/all.css: { type: external }
 
 # Material Design for Bootstrap
 
