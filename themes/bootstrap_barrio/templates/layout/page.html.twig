@@ -137,13 +137,13 @@
       {% block featured %}
         <div class="featured-top">
           <aside class="featured-top__inner section {{ container }} clearfix" role="complementary">
-            {{ 'now'|date('l') }}
             {{ page.featured_top }}
           </aside>
         </div>
       {% endblock %}
     {% endif %}
     <div id="main-wrapper" class="layout-main-wrapper clearfix">
+      {{ 'now'|date('l') }}
       {% block content %}
         <div id="main" class="{{ container }}">
           {{ page.breadcrumb }}
