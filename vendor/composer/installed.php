@@ -3,7 +3,7 @@
         'name' => 'drupal/legacy-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '1436169edb29e85851cc5d1d9c4d7a6c0f7b20b2',
+        'reference' => '8c6de965e83d9c7e22703dbc98ea35c57dd4ab09',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -286,6 +286,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/google_analytics' => array(
+            'pretty_version' => '4.0.0',
+            'version' => '4.0.0.0',
+            'reference' => '4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/google_analytics',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/jquery_ui' => array(
             'pretty_version' => '1.6.0',
             'version' => '1.6.0.0',
@@ -343,7 +352,7 @@
         'drupal/legacy-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '1436169edb29e85851cc5d1d9c4d7a6c0f7b20b2',
+            'reference' => '8c6de965e83d9c7e22703dbc98ea35c57dd4ab09',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

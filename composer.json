@@ -23,6 +23,7 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
+        "drupal/google_analytics": "4.0",
         "drupal/jquery_ui_autocomplete": "2.0",
         "drupal/linked_field": "^1.5",
         "drupal/paragraphs": "1.15"
